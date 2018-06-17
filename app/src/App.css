@@ -1,0 +1,34 @@
+.App-title{
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+
+.App-intro{
+  font-size: 1rem;
+  text-align: center;
+}
+
+.App-outtro{
+  font-size: .5rem;
+  text-align: center;
+}
+
+@keyframes apples {
+  0%   {background-color: aqua;}
+  25%  {background-color:yellow;}
+  50%  {background-color:blue;}
+  75%  {background-color:green;}
+  100% {background-color:red;}
+}
+
+/* The element to apply the animation to */
+img {
+  animation-name: apples;
+  animation-duration: 10s;
+  background-color: aqua;
+  height: 300px;
+  width: 100%;
+
+}
